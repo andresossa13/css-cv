@@ -1,0 +1,34 @@
+body {
+    /* Colors */
+   background-color: rgb(252, 237, 237);
+   /* Typography */
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.35;
+   color: rgb(23, 23, 23);
+
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* Selectors */
+/* The least specific selector */
+h1 {
+    color: pink;
+}
+
+.title {
+
+    color: red;
+}
+
+/* This is the most specific selector */
+
+#title {
+    color: blue;
+}
